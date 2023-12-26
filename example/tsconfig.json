@@ -2,9 +2,13 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "paths": {
-      "@@/*": [".dumi/tmp/*"]
+      "@@/*": [
+        ".dumi/tmp/*"
+      ]
     },
     "resolveJsonModule": true
   },
-  "include": [".dumi/**/*", ".dumirc.ts"]
+  "include": [
+    ".dumirc.ts"
+  ]
 }
